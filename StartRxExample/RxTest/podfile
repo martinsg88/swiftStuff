@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RxTest' do
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Moya/RxSwift'
+    pod 'Moya-ModelMapper/RxSwift'
+    pod 'RxOptional'
+    pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+end
+
